@@ -1,0 +1,125 @@
+*{
+margin : 0;
+padding : 0;
+}
+html, body{
+height : 100%;
+width : 100%;
+box-sizing : border-box;
+}
+
+#main{
+    height: 100%;
+    width: 98.7%;
+}
+
+#nav{
+    padding:  10px;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div1 h3,i{
+    padding: 4px;
+    border: 2px solid;
+    border-radius: 110px;
+}
+
+#div2{
+    text-transform: uppercase;
+}
+
+#div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup{
+    border: none;
+    background-color: orangered;
+    border-width: 0px;
+    color: white;
+}
+
+#div3 button{
+    padding: 4px;
+    border-radius: 110px;
+    border: 2px solid;
+}
+
+#main>#body>h1{
+    font-size: 1000%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+
+#i1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#i2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#i4{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#footer{
+    padding: 10px;
+    width: 97.6%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 15px;
+    bottom: 10px;
+}
+#foot1,#foot3{
+    display: flex;
+    gap: 1px;
+}
+#foot1 i{
+    color: red;
+    border: none;
+}
+#foot1 h3{
+    text-decoration: underline;
+}
+/* #circle{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100px 100px 0px 0px;
+    align-self: center;
+    clip: rect();
+} */
+
+#foot3>*{
+    border: none;
+    font-size: 25px;
+}
